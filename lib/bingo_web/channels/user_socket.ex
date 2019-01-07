@@ -3,7 +3,7 @@ defmodule BingoWeb.UserSocket do
 
   ## Channels
   # channel "room:*", BingoWeb.RoomChannel
-  channel "bingo", BingoWeb.BingoChannel
+  channel "bingo:*", BingoWeb.BingoChannel
 
   # Socket params are passed from the client and can
   # be used to verify and authenticate a user. After

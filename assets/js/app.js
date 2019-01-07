@@ -4,7 +4,8 @@ import { Socket } from 'phoenix';
 
 const socket = new Socket('/socket', {});
 socket.connect();
-const channel = socket.channel('bingo');
+const url = new URL(document.URL);
+const channel = socket.channel(`bingo:${url.searchParams.get('id')}`);
 channel.join().receive('ok', objectives => {
   for (let i = 0; i < objectives.length; i += 1) {
     document.querySelector(
