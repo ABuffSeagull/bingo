@@ -1,0 +1,1056 @@
+[[easy]]
+name = "Bomb 5 shopkeepers"
+types = ["bombShopkeepers"]
+
+[[easy]]
+name = "Kill Pin or Larry"
+types = ["killBossBasement"]
+
+[[easy]]
+name = "Kill Little Horn"
+types = ["killBossBasement"]
+
+[[easy]]
+name = "Kill Duke of Flies"
+types = ["killBossBasement"]
+
+[[easy]]
+name = "Get 3 different tarot cards"
+types = ["getCards"]
+
+[[easy]]
+name = "Get a syringe item"
+types = ["syringe"]
+
+[[easy]]
+name = "Get 6 heart containers"
+types = ["getHeartContainers"]
+
+[[easy]]
+name = "Buy everything in a shop"
+types = ["buyShop"]
+
+[[easy]]
+name = "Kill a green champion enemy or boss"
+types = ["killChampion"]
+
+[[easy]]
+name = "20 bombs"
+types = ["getPickups"]
+
+[[easy]]
+name = "15 keys"
+types = ["getPickups"]
+
+[[easy]]
+name = "30 coins"
+types = ["getPickups"]
+
+[[easy]]
+name = "Use 3 different pills"
+types = ["getPills"]
+
+[[easy]]
+name = "Get an orbital"
+types = ["getOrbital"]
+
+[[easy]]
+name = "Teleport out of a Boss Room"
+types = ["teleport"]
+
+[[easy]]
+name = "Make something happen in a sacrifice room (except coins and You feel blessed)"
+types = ["sacrifice"]
+
+[[easy]]
+name = "Kill an enemy with a troll bomb"
+types = ["killEnemyBomb"]
+
+[[easy]]
+name = "Break 3 tinted rocks without using bombs"
+types = ["tintedRocks"]
+
+[[easy]]
+name = "Bomb a normal beggar"
+types = ["bombBeggar"]
+
+[[easy]]
+name = "Enter 2 super secret rooms"
+types = ["secretRooms"]
+
+[[easy]]
+name = "Enter 3 secret rooms"
+types = ["secretRooms"]
+
+[[easy]]
+name = "Get an eye item"
+types = ["eye"]
+
+[[easy]]
+name = "Get a tear rate of 5"
+types = ["tearRate"]
+
+[[easy]]
+name = "Give 10 coins to a donation machine"
+types = ["donationMachine"]
+
+[[easy]]
+name = "Satisfy a slot machine"
+types = ["slotMachine"]
+
+[[easy]]
+name = "Satisfy a blood machine"
+types = ["bloodMachine"]
+
+[[easy]]
+name = "Enter a god room"
+types = ["godRoom"]
+
+[[easy]]
+name = "Get an item with Head in its name"
+types = ["head"]
+
+[[easy]]
+name = "Use 2 books"
+types = ["books"]
+
+[[easy]]
+name = "Get a golden key"
+types = ["goldenPickups"]
+
+[[easy]]
+name = "Find a Dice room and use it"
+types = ["diceRoom"]
+
+[[easy]]
+name = "Use 20 coins in an Arcade Room"
+types = ["arcadeRoom", "donationMachine", "slotMachine", "beggar", "shellGame"]
+
+[[easy]]
+name = "Destroy a black poop"
+types = ["poops"]
+
+[[easy]]
+name = "Poison an enemy"
+types = ["effectsOnEnemies"]
+
+[[easy]]
+name = "Bomb a demon beggar"
+types = ["bombBeggar"]
+
+[[easy]]
+name = "Get a Hierophant card or a Balls of Steel pill"
+types = ["getCards","getPills"]
+
+[[easy]]
+name = "Get a poker card (Ace of */ 2 of */Joker)"
+types = ["getCards"]
+
+[[easy]]
+name = "Get a map"
+types = ["map"]
+
+[[easy]]
+name = "Die at exactly 4 minutes and 20 seconds"
+types = ["suicide"]
+
+[[easy]]
+name = "Beat a full Fistula Terratoma or Envy"
+types = ["sins","killBossCaves"]
+
+[[easy]]
+name = "Enter a devil room AND an angel room"
+types = ["devilRoom","godRoom"]
+
+[[easy]]
+name = "Break a restock box without making profit of it"
+types = ["restockBox"]
+
+[[easy]]
+name = "Get an item that does not make you shoot tears (lasers bombs...)"
+types = ["tearModifier"]
+
+[[easy]]
+name = "15 cents in coins on the floor of a single room"
+types = ["getPickupsOnTheFloor"]
+
+[[easy]]
+name = "Kill 2 Sin bosses"
+types = ["sins"]
+
+[[easy]]
+name = "Get 2 Mom items"
+types = ["yesMother"]
+
+[[easy]]
+name = "Pickup any Mushroom item"
+types = ["mushrooms"]
+
+[[easy]]
+name = "Get multishot (20/20 Inner Eye, Mutant Spider...)"
+types = ["multishot"]
+
+[[easy]]
+name = "50 pickups (combined)"
+types = ["getPickups"]
+
+[[easy]]
+name = "Satisfy a normal beggar"
+types = ["beggar"]
+
+[[easy]]
+name = "Kill a boss without using your tears"
+types = ["withoutTears"]
+
+[[easy]]
+name = "Enter a room locked twice"
+types = ["bedRoom","books"]
+
+[[easy]]
+name = "Finish a run with Judas or Azazel"
+types = ["finishRun"]
+
+[[easy]]
+name = "Finish a run with Eve or Samson"
+types = ["finishRun"]
+
+[[easy]]
+name = "Finish a run with Isaac"
+types = ["finishRun"]
+
+[[easy]]
+name = "Kill the Basement 1 boss under 1 minute"
+types = ["killBossBasement"]
+
+[[easy]]
+name = "Find an item in a rock mushroom or tinted rock"
+types = ["tintedRocks", "mushrooms", "useBombs"]
+
+[[easy]]
+name = "Complete Basement 1 and 2 without taking damage"
+types = ["noDamage"]
+
+[[easy]]
+name = "Get a Luck stat of 3 (at least)"
+types = ["luck"]
+
+[[easy]]
+name = "Get 10+ damage stat"
+types = ["damage"]
+
+[[easy]]
+name = "Get 2.00 of speed"
+types = ["speed"]
+
+[[easy]]
+name = "Bomb yourself 6 times in a single room"
+types = ["selfDamage"]
+
+[[easy]]
+name = "Get 25 items"
+types = ["itemAmount"]
+
+[[easy]]
+name = "Find a pickup or an item by bombing something"
+types = ["tintedRocks","mushrooms","skulls", "useBombs"]
+
+[[easy]]
+name = "Regenerate at least half a heart"
+types = ["regenerate"]
+
+[[easy]]
+name = "Kill 2 enemies with a single bomb"
+types = ["killEnemyBomb"]
+
+[[easy]]
+name = "Kill 10 champion enemies"
+types = ["killChampion"]
+
+[[easy]]
+name = "Use 10 keys in a run"
+types = ["useKeys"]
+
+[[easy]]
+name = "Bomb 30 rocks"
+types = ["useBombs"]
+
+[[easy]]
+name = "Bomb 3 tinted rocks"
+types = ["tintedRocks"]
+
+[[easy]]
+name = "Bomb an angel"
+types = ["godRoom"]
+
+[[easy]]
+name = "Take 2 hearts of damage in spikes"
+types = ["selfDamage"]
+
+[[easy]]
+name = "Open a Rock Chest"
+types = ["openChests"]
+
+[[easy]]
+name = "Hold a worm trinket"
+types = ["trinkets"]
+
+[[easy]]
+name = "Hold a penny trinket"
+types = ["trinkets"]
+
+[[easy]]
+name = "Hold a Locust trinket"
+types = ["trinkets"]
+
+[[easy]]
+name = "Complete Basement 1 with The Lost"
+types = ["challengeCharacterBasement"]
+
+[[easy]]
+name = "Complete Basement 1 with Keeper"
+types = ["challengeCharacterBasement"]
+
+[[easy]]
+name = "Die on a spider"
+types = ["suicide"]
+
+[[easy]]
+name = "Die on a fly"
+types = ["suicide"]
+
+[[easy]]
+name = "Exit a challenge room while fighting in it"
+types = ["teleport", "theChallengeRooms"]
+
+[[easy]]
+name = "Complete a non-empty room without shooting"
+types = ["withoutShooting"]
+
+[[easy]]
+name = "Get a HP up item"
+types = ["getStatItem"]
+
+[[easy]]
+name = "Get a Speed up item"
+types = ["getStatItem"]
+
+[[easy]]
+name = "Full clear Basement 1+2"
+types = ["fullClearBasement"]
+
+[[easy]]
+name = "Reroll 3 times the same thing"
+types = ["restockBox", "reroll"]
+
+[[easy]]
+name = "Take 3 batteries"
+types = ["getBatteries"]
+
+[[easy]]
+name = "Lose 2 hearts by walking on creep"
+types = ["selfDamage"]
+
+[[easy]]
+name = "Trigger the Necronomicon effect 3 times"
+types = ["selfDamage"]
+
+[[easy]]
+name = "Collect 1 eternal heart"
+types = ["getHearts"]
+
+[[easy]]
+name = "Get 2 familiars"
+types = ["getFamiliar"]
+
+[[easy]]
+name = "10 blue flies around you"
+types = ["getBlueFamiliars"]
+
+[[easy]]
+name = "5 blue spiders around you"
+types = ["getBlueFamiliars"]
+
+[[easy]]
+name = "Stomp 2 enemies"
+types = ["stomp"]
+
+[[easy]]
+name = "Kill a Black ball"
+types = ["killEnemy"]
+
+[[easy]]
+name = "Get hurt by a red beam"
+types = ["selfDamage"]
+
+[[easy]]
+name = "Refill your life by 3 red hearts in the same room"
+types = ["getHearts"]
+
+[[easy]]
+name = "Kill 5 enemies while at half a HP"
+types = ["halfHP"]
+
+[[easy]]
+name = "Become invincible once"
+types = ["invincivility"]
+
+[[medium]]
+name = "Get 99 bombs, 99 keys or 99 coins"
+types = ["getPickups"]
+
+[[medium]]
+name = "Get 20+ of each pick-up"
+types = ["getPickups"]
+
+[[medium]]
+name = "Get an item that grants fly"
+types = ["flightItem"]
+
+[[medium]]
+name = "Full clear + no damage in a whole floor (except Basement 1/2)"
+types = ["fullClear","noDamage"]
+
+[[medium]]
+name = "Enter a super secret room in a XL floor"
+types = ["secretRooms"]
+
+[[medium]]
+name = "Reveal a secret room without using your active or bombs"
+types = ["secretRooms"]
+
+[[medium]]
+name = "Get the Guppy transformation"
+types = ["transformation", "guppy"]
+
+[[medium]]
+name = "Get Skatole"
+types = ["shellGame"]
+
+[[medium]]
+name = "Get 4 different types of hearts in your health bar"
+types = ["getHearts"]
+
+[[medium]]
+name = "Get 2 size reductions"
+types = ["size"]
+
+[[medium]]
+name = "Get two golden keys"
+types = ["goldenPickups"]
+
+[[medium]]
+name = "Kill a super or ultra sin mini-boss"
+types = ["sins"]
+
+[[medium]]
+name = "Get a heatlh dropper familiar"
+types = ["getFamiliar"]
+
+[[medium]]
+name = "Get Piercing tears"
+types = ["tearModifier"]
+
+[[medium]]
+name = "Full clear XL floor past basement"
+types = ["fullClear"]
+
+[[medium]]
+name = "Kill any boss only with bombs"
+types = ["killEnemyBomb"]
+
+[[medium]]
+name = "Use 4 books"
+types = ["books"]
+
+[[medium]]
+name = "Get a resurrection"
+types = ["resurrection"]
+
+[[medium]]
+name = "Get an item providing invincibility to explosions"
+types = ["invincibilityExplosions"]
+
+[[medium]]
+name = "Destroy a golden poop"
+types = ["poops"]
+
+[[medium]]
+name = "Destroy a rainbow poop"
+types = ["poops"]
+
+[[medium]]
+name = "Destroy 3 special poops (not the red ones)"
+types = ["poops"]
+
+[[medium]]
+name = "Use 3 time modifier pills"
+types = ["getPills"]
+
+[[medium]]
+name = "Finish a run with the seed L0ST"
+types = ["seeds"]
+
+[[medium]]
+name = "Finish a run with the seed CHAM P10N"
+types = ["seeds"]
+
+[[medium]]
+name = "Bomb 3 beggars of the same time"
+types = ["bombBeggar"]
+
+[[medium]]
+name = "Bomb a key beggar"
+types = ["bombBeggar"]
+
+[[medium]]
+name = "Get the Yes Mother ? transformation"
+types = ["transformation", "yesMother"]
+
+[[medium]]
+name = "Finish a run with the seed FART SNDS"
+types = ["seeds"]
+
+[[medium]]
+name = "Enter a challenge room and complete it with half your red hearts or less"
+types = ["theChallengeRooms"]
+
+[[medium]]
+name = "Enter and clear a Boss-Challenge room with half a heart"
+types = ["halfHP"]
+
+[[medium]]
+name = "Have exactly 69 coins, 4 bombs, 20 keys"
+types = ["getPickups"]
+
+[[medium]]
+name = "Find a rope ladder trapdoor"
+types = ["ropeLadderTrapdoor"]
+
+[[medium]]
+name = "Get a lv2 Bandage Girl"
+types = ["harbingers"]
+
+[[medium]]
+name = "Get a lv2 Meat Boy"
+types = ["harbingers"]
+
+[[medium]]
+name = "Bomb 8 shopkeepers"
+types = ["bombShopkeepers"]
+
+[[medium]]
+name = "Kill Peep"
+types = ["killBossCaves"]
+
+[[medium]]
+name = "Kill a Gurdy"
+types = ["killBossCaves"]
+
+[[medium]]
+name = "Kill Polycephalus or The Stain"
+types = ["killBossCaves"]
+
+[[medium]]
+name = "Fire a Spectral tear"
+types = ["tearModifier"]
+
+[[medium]]
+name = "Get 2 effects on your tears"
+types = ["tearModifier"]
+
+[[medium]]
+name = "Fire a homing tear"
+types = ["tearModifier"]
+
+[[medium]]
+name = "Use a demon beggar or blood machine without taking damage"
+types = ["invincibility"]
+
+[[medium]]
+name = "Gain a heart container with two eternal hearts"
+types = ["getHearts"]
+
+[[medium]]
+name = "Shoot a beam or laser"
+types = ["tearModifier"]
+
+[[medium]]
+name = "Finish a run with Lilith or Magdalene"
+types = ["finishRun"]
+
+[[medium]]
+name = "Finish a run with Apollyon or Lazarus"
+types = ["finishRun"]
+
+[[medium]]
+name = "Finish a run with Eden or Cain"
+types = ["finishRun"]
+
+[[medium]]
+name = "Bomb yourself 8 times in a single room"
+types = ["selfDamage"]
+
+[[medium]]
+name = "Enter the Void"
+types = ["enterFloor"]
+
+[[medium]]
+name = "Get 30 items"
+types = ["itemAmount"]
+
+[[medium]]
+name = "Satisfy a donation machine"
+types = ["donationMachine"]
+
+[[medium]]
+name = "Bomb 6 tinted rocks"
+types = ["tintedRocks"]
+
+[[medium]]
+name = "Get The Small Rock"
+types = ["tintedRocks"]
+
+[[medium]]
+name = "Get through Caves 1 and 2 without taking damage"
+types = ["noDamage"]
+
+[[medium]]
+name = "Complete a XL floor without taking damage"
+types = ["noDamage"]
+
+[[medium]]
+name = "Lose 3 hearts by walking on creep"
+types = ["selfDamage"]
+
+[[medium]]
+name = "Collect 2 eternal hearts"
+types = ["getHearts"]
+
+[[medium]]
+name = "Collect a gold heart"
+types = ["goldenPickups"]
+
+[[medium]]
+name = "Get 3 familiars"
+types = ["getFamiliar"]
+
+[[medium]]
+name = "15 blue flies around you"
+types = ["getBlueFamiliars"]
+
+[[medium]]
+name = "Charm an enemy"
+types = ["effectsOnEnemies"]
+
+[[medium]]
+name = "10 blue spiders around you"
+types = ["getBlueFamiliars"]
+
+[[medium]]
+name = "Stomp 5 enemies"
+types = ["stomp"]
+
+[[medium]]
+name = "Kill 5 black balls"
+types = ["killEnemy"]
+
+[[medium]]
+name = "Lose 3 hearts by red beams"
+types = ["selfDamage"]
+
+[[medium]]
+name = "Refill your life by 4 red hearts in the same room"
+types = ["getHearts"]
+
+[[medium]]
+name = "Confuse Effect to an enemy"
+types = ["effectsOnEnemies"]
+
+[[medium]]
+name = "Complete a non-empty room without moving"
+types = ["withoutMoving"]
+
+[[medium]]
+name = "Get a damage down effect"
+types = ["damage"]
+
+[[medium]]
+name = "Get a speed down effect"
+types = ["speed"]
+
+[[medium]]
+name = "Get a health down effect"
+types = ["getPills"]
+
+[[medium]]
+name = "Complete a scarred womb floor"
+types = ["completeFloor"]
+
+[[medium]]
+name = "Complete a Danks Depths floor without taking damage"
+types = ["noDamage"]
+
+[[medium]]
+name = "Burning basement 1 + burning basement 2 completed (reminder : in the same run)"
+types = ["completeFloor"]
+
+[[medium]]
+name = "Enter 3 cursed rooms"
+types = ["cursedRoom"]
+
+[[medium]]
+name = "Use 5 keys in the same floor"
+types = ["useKeys"]
+
+[[medium]]
+name = "Get 2 Lil items"
+types = ["lil"]
+
+[[medium]]
+name = "Use D4 3 times"
+types = ["reroll"]
+
+[[medium]]
+name = "Use razor blade 5 times"
+types = ["selfDamage"]
+
+[[medium]]
+name = "Use D6 10 times"
+types = ["reroll"]
+
+[[medium]]
+name = "Get 3 things by bombing mushrooms"
+types = ["mushrooms"]
+
+[[medium]]
+name = "Enter 2 Arcade Rooms"
+types = ["arcadeRoom"]
+
+[[medium]]
+name = "Enter 3 sacrifice rooms"
+types = ["sacrifice"]
+
+[[medium]]
+name = "Bomb 20 cobwebs on the floor"
+types = ["useBombs"]
+
+[[medium]]
+name = "Get 2 slots for space items, trinkets or pills/cards"
+types = ["twoSlots"]
+
+[[medium]]
+name = "Use an Emergency Contact card"
+types = ["getCards"]
+
+[[medium]]
+name = "Use a Card against humanity"
+types = ["getCards"]
+
+[[medium]]
+name = "Use 5 red-back cards"
+types = ["getCards"]
+
+[[medium]]
+name = "Kill Mom's foot with your character's basic damage stat"
+types = ["damage"]
+
+[[medium]]
+name = "Get a Devil deal item giving blue or black hearts"
+types = ["devilRoom"]
+
+[[medium]]
+name = "Get 3 HP up items"
+types = ["getStatItem"]
+
+[[medium]]
+name = "Get a Mushroom item by bombing mushrooms"
+types = ["mushrooms"]
+
+[[medium]]
+name = "Complete a Double Trouble Boss room"
+types = ["doubleTrouble"]
+
+[[medium]]
+name = "Finish the Boss Rush before 20 minutes"
+types = ["beatBossRush"]
+
+[[hard]]
+name = "Get the Spun transformation"
+types = ["transformation", "syringe"]
+
+[[hard]]
+name = "Get more than 25 damage"
+types = ["damage"]
+
+[[hard]]
+name = "Give 10 hearts in sacrifice rooms and beat Isaac"
+types = ["sacrifice", "selfDamage", "beatIsaac"]
+
+[[hard]]
+name = "Kill 4 angels"
+types = ["godRoom"]
+
+[[hard]]
+name = "Use 8 different pills"
+types = ["getPills"]
+
+[[hard]]
+name = "Beat Boss Rush and The Hush"
+types = ["beatBossRush","beatTheHush"]
+
+[[hard]]
+name = "Don't take any pedestal item in Basement 1 and 2 and beat Satan"
+types = ["beatSatan","noPedestal"]
+
+[[hard]]
+name = "Beat It Lives without taking any Treasure room item"
+types = ["beatItLives", "noTreasureRooms"]
+
+[[hard]]
+name = "Enter all secret and supersecret rooms from Basement 1 to Womb 2"
+types = ["secretRooms"]
+
+[[hard]]
+name = "Get the Leviathan transformation"
+types = ["transformation","devilRoom"]
+
+[[hard]]
+name = "Get the Seraphim transformation"
+types = ["transformation","godRoom"]
+
+[[hard]]
+name = "Use Lemon Party pill or Lemon Mishap on Isaac"
+types = ["getPills"]
+
+[[hard]]
+name = "Kill Isaac with half a heart during the whole fight"
+types = ["halfHP","beatIsaac"]
+
+[[hard]]
+name = "Accept every devil deal the game proposes you and beat It Lives"
+types = ["devilRoom","beatItLives"]
+
+[[hard]]
+name = "Full clear Cathedral"
+types = ["fullClearlv7"]
+
+[[hard]]
+name = "Full clear Sheol"
+types = ["fullClearlv7"]
+
+[[hard]]
+name = "Full clear The Chest"
+types = ["fullClearlv8"]
+
+[[hard]]
+name = "Full clear Dark Room"
+types = ["fullClearlv8"]
+
+[[hard]]
+name = "Get 4 Guppy items"
+types = ["guppy"]
+
+[[hard]]
+name = "Kill Satan without gaining any heart container during the run"
+types = ["beatSatan","noHPup"]
+
+[[hard]]
+name = "Kill It Lives with a bomb"
+types = ["killEnemyBomb","beatItLives"]
+
+[[hard]]
+name = "Kill It Lives without opening any chests during the run"
+types = ["noChests","beatItLives"]
+
+[[hard]]
+name = "Beat Isaac without buying anything from shops"
+types = ["beatIsaac","noShops"]
+
+[[hard]]
+name = "Beat Blue Baby"
+types = ["beatBlueBaby"]
+
+[[hard]]
+name = "Beat The Lamb"
+types = ["beatTheLamb"]
+
+[[hard]]
+name = "Beat It Lives without using active item during the run"
+types = ["beatItLives","noActive"]
+
+[[hard]]
+name = "Beat any boss only by pressing moving arrows"
+types = ["withoutShooting"]
+
+[[hard]]
+name = "Satisfy 2 demon beggars and then beat It Lives"
+types = ["beatItlives","beggar"]
+
+[[hard]]
+name = "Enter I AM ERROR room"
+types = ["iAmErrorRoom"]
+
+[[hard]]
+name = "Finish a run with the seed 1CES KATE"
+types = ["seeds"]
+
+[[hard]]
+name = "Get a golden bomb"
+types = ["goldenPickups"]
+
+[[hard]]
+name = "Finish a run in less than 40 minutes in Dark Room or The Chest"
+types = ["finishRun"]
+
+[[hard]]
+name = "Use 6 books items"
+types = ["books"]
+
+[[hard]]
+name = "Kill Little horn with one of his own bombs"
+types = ["killEnemyBomb","killBoss"]
+
+[[hard]]
+name = "Finish a run with the seed 1MN0 B0DY"
+types = ["seeds"]
+
+[[hard]]
+name = "Use Suicide King card"
+types = ["getCards"]
+
+[[hard]]
+name = "Sleep in a bed"
+types = ["bedRoom"]
+
+[[hard]]
+name = "Find a black market"
+types = ["ropeLadderTrapdoor"]
+
+[[hard]]
+name = "Get a lv3 Meat Boy"
+types = ["harbingers"]
+
+[[hard]]
+name = "Get a lv3 Bandage Girl"
+types = ["harbingers"]
+
+[[hard]]
+name = "Bomb 10 shopkeepers"
+types = ["bombShopkeepers"]
+
+[[hard]]
+name = "Bomb a bomb beggar"
+types = ["bombBeggar"]
+
+[[hard]]
+name = "Take no devil deals and no items in angel rooms and beat Isaac or Satan"
+types = ["beatIsaac","beatSatan","noDevilDeals"]
+
+[[hard]]
+name = "Enter a boss Room (not in Basement) with half a heart and complete it"
+types = ["halfHP"]
+
+[[hard]]
+name = "Finish a run with ??? or Keeper"
+types = ["finishRun"]
+
+[[hard]]
+name = "Bomb yourself 10 times in a single room"
+types = ["selfDamage"]
+
+[[hard]]
+name = "Beat Delirium"
+types = ["beatDelirium"]
+
+[[hard]]
+name = "Get 35 items"
+types = ["itemAmount"]
+
+[[hard]]
+name = "Take no damage until killing Mom's foot"
+types = ["noDamage"]
+
+[[hard]]
+name = "Kill It Lives without having opened any chest"
+types = ["beatItLives","noChests"]
+
+[[extra_hard]]
+name = "Kill the Bloat in a Boss room without taking damage"
+types = ["noDamage"]
+
+[[extra_hard]]
+name = "Kill It Lives, Isaac, ??? and Mega Satan"
+types = ["beatMegaSatan"]
+
+[[extra_hard]]
+name = "Full clear The Void"
+types = ["fullClearVoid","beatDelirium"]
+
+[[extra_hard]]
+name = "Kill It Lives, Satan, the Lamb and Mega Satan"
+types = ["beatMegaSatan","finishRun"]
+
+[[extra_hard]]
+name = "Kill The Hush without taking damage during the fight"
+types = ["beatTheHush"]
+
+[[extra_hard]]
+name = "Beat It Lives while only taking items in Boss Rooms"
+types = ["noTreasureRooms","beatItLives"]
+
+[[extra_hard]]
+name = "Get 12 hearts containers"
+types = ["getHeartContainers"]
+
+[[extra_hard]]
+name = "Kill It Lives without ever gaining blue hearts"
+types = ["noBlueHearts","beatItLives"]
+
+[[extra_hard]]
+name = "Beat Delirium in less than 40 minutes"
+types = ["beatDelirium"]
+
+[[extra_hard]]
+name = "Finish a run with the seed KEEP TRAK"
+types = ["seeds"]
+
+[[extra_hard]]
+name = "Finish a run with the seed THEG H0ST"
+types = ["seeds"]
+
+[[extra_hard]]
+name = "Get a Super Meat Boy (lv4)"
+types = ["harbingers"]
+
+[[extra_hard]]
+name = "Finish a run with The Lost"
+types = ["finishRun"]
+
+[[extra_hard]]
+name = "Beat The Lamb after beating Isaac"
+types = ["beatIsaac","beatTheLamb"]
+
+[[extra_hard]]
+name = "Beat The Lamb without picking up any bomb during the run"
+types = ["beatTheLamb","noBombs"]
+
+[[extra_hard]]
+name = "Beat The Hush without using your coins during the run"
+types = ["beatTheHush","noCoins"]
+
+[[extra_hard]]
+name = "Finish a run in less than 25 minutes"
+types = ["finishRun"]
+
+[[extra_hard]]
+name = "Kill The Hush without using keys or coins in Blue Womb"
+types = ["beatTheHush","noCoins","noKeys"]
+
+[[extra_hard]]
+name = "Kill ??? without shooting"
+types = ["beatBlueBaby", "withoutShooting"]
+
+[[extra_hard]]
+name = "Kill Delirium with a bomb"
+types = ["beatDelirium","killEnemyBomb"]
+

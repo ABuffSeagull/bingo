@@ -1,0 +1,13 @@
+<label for="playerOne">Player One</label>
+<input type="radio" name="player" value="1" id="playerOne">
+
+<label for="playerTwo">Player Two</label>
+<input type="radio" name="player" value="2" id="playerTwo">
+
+<div class="bingo">
+	<%= for num <- 0..24 do %>
+		<div class="bingo__item" data-index="<%= num %>">
+			<div class="bingo__item__text">---</div>
+		</div>
+	<% end %>
+</div>

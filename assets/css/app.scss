@@ -1,0 +1,39 @@
+/* This file is for your main application css. */
+
+@import "./phoenix.css";
+
+.bingo {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	min-height: 50rem;
+	grid-gap: 1rem;
+	background-color: black;
+	padding: 1rem;
+}
+
+.bingo__item {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	background-color: white;
+
+	&--selected-1 {
+		background-color: red;
+	}
+
+	&--selected-2 {
+		background-color: blue;
+	}
+
+	&:hover {
+		background-color: grey;
+		color: white;
+	}
+}
+
+.bingo__item__text {
+	text-align: center;
+	padding: 0.5rem;
+}
