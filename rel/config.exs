@@ -31,7 +31,6 @@ environment :dev do
   set(dev_mode: true)
   set(include_erts: false)
   set(cookie: :"zVo@|KcQhDEm8_[0^Kht/}Ht6_$||P!e$U&Vq]:q>uK>Nm}{{f0t_{{MXs]IFSJ>")
-  set(server: true)
 end
 
 environment :prod do
