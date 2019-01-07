@@ -17,11 +17,11 @@ config :bingo, BingoWeb.Endpoint,
   secret_key_base: "${SECRET_KEY_BASE}"
 
 config :bingo, Bingo.Repo,
-	adapter: Ecto.Adapters.Postgres,
-	url: "${DATABASE_URL}",
-	database: "",
-	ssl: true,
-	pool_size: 1
+  adapter: Ecto.Adapters.Postgres,
+  url: "${DATABASE_URL}",
+  database: "",
+  ssl: true,
+  pool_size: 1
 
 # Do not print debug messages in production
 config :logger, level: :info

@@ -23,8 +23,8 @@ defmodule BingoWeb.BingoChannel do
   end
 
   def handle_in("choose", payload, socket) do
-	  broadcast(socket, "chosen", payload)
-	  {:noreply, socket}
+    broadcast(socket, "chosen", payload)
+    {:noreply, socket}
   end
 
   # Channels can be used in a request/response fashion
