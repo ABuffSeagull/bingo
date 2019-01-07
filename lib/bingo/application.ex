@@ -11,9 +11,10 @@ defmodule Bingo.Application do
       # Start the Ecto repository
       Bingo.Repo,
       # Start the endpoint when the application starts
-      BingoWeb.Endpoint
+      BingoWeb.Endpoint,
       # Starts a worker by calling: Bingo.Worker.start_link(arg)
       # {Bingo.Worker, arg},
+      Bingo.BoardLoader
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
