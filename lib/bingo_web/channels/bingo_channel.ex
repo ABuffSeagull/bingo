@@ -16,7 +16,8 @@ defmodule BingoWeb.BingoChannel do
     %{"easy" => objectives} = BoardLoader.get("boi")
 
     objectives =
-      Enum.take_random(objectives, 25)
+      objectives
+      |> Enum.take_random(25)
       |> Enum.map(& &1["name"])
 
     {:ok, objectives, socket}

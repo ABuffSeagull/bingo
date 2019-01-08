@@ -44,7 +44,8 @@ defmodule Bingo.MixProject do
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
       {:toml, "~> 0.5.2"},
-      {:distillery, "~> 2.0", runtime: false}
+      {:distillery, "~> 2.0", runtime: false},
+      {:credo, "~> 1.0", only: [:dev, :test], runtime: false}
     ]
   end
 

@@ -3,7 +3,8 @@ defmodule BingoWeb.BingoChannelTest do
 
   setup do
     {:ok, _, socket} =
-      socket(BingoWeb.UserSocket, "user_id", %{some: :assign})
+      BingoWeb.UserSocket
+      |> socket("user_id", %{some: :assign})
       |> subscribe_and_join(BingoWeb.BingoChannel, "bingo:lobby")
 
     {:ok, socket: socket}
