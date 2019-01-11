@@ -9,3 +9,11 @@
 #
 # We recommend using the bang functions (`insert!`, `update!`
 # and so on) as they will fail if something goes wrong.
+require Toml
+alias Bingo.Games.Game
+{:ok, objectives} = Toml.decode_file("boards/boi.toml")
+
+Bingo.Repo.insert!(%Game{
+  name: "boi",
+  objectives: objectives
+})

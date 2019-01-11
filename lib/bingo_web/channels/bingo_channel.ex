@@ -1,6 +1,7 @@
 defmodule BingoWeb.BingoChannel do
   use BingoWeb, :channel
-  alias Bingo.BoardLoader
+  alias Bingo.Games
+  alias Bingo.Games.Game
 
   def join("bingo:lobby", payload, socket) do
     if authorized?(payload) do
@@ -13,7 +14,7 @@ defmodule BingoWeb.BingoChannel do
   def join("bingo:" <> id, _payload, socket) do
     id = String.to_integer(id)
     :rand.seed(:exsplus, {id, id, id})
-    %{"easy" => objectives} = BoardLoader.get("boi")
+    %Game{objectives: %{"easy" => objectives}} = Games.get_game_by_name!("boi")
 
     objectives =
       objectives
