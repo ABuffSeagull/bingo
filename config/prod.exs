@@ -11,7 +11,8 @@ use Mix.Config
 # before starting your production server.
 config :bingo, BingoWeb.Endpoint,
   http: [:inet6, port: System.get_env("PORT") || 4000],
-  url: [host: "example.com", port: 80],
+  url: [host: "${PROJECT_URL}.gigalixirapp.com"],
+  check_origin: ["//${PROJECT_URL}.gigalixirapp.com", "//localhost"],
   cache_static_manifest: "priv/static/cache_manifest.json",
   server: true,
   secret_key_base: "${SECRET_KEY_BASE}"
