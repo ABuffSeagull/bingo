@@ -1,3 +1,5 @@
+<h1>Using id: <span id="channel-id"></span></h1>
+<h3>Share this link to someone else: <a id="share-link"></a></h3>
 <label for="playerOne">Player One</label>
 <input type="radio" name="player" value="1" id="playerOne">
 

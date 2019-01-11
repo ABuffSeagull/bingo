@@ -5,7 +5,16 @@ import { Socket } from 'phoenix';
 const socket = new Socket('/socket', {});
 socket.connect();
 const url = new URL(document.URL);
-const channel = socket.channel(`bingo:${url.searchParams.get('id') || 1}`);
+const channel_id =
+  url.searchParams.get('id') || Math.floor(Math.random() * 100);
+
+document.getElementById('channel-id').textContent = channel_id;
+const link = `${url.origin}/?id=${channel_id}`;
+const shareLink = document.getElementById('share-link');
+shareLink.href = link;
+shareLink.textContent = link;
+
+const channel = socket.channel(`bingo:${channel_id}`);
 channel.join().receive('ok', objectives => {
   for (let i = 0; i < objectives.length; i += 1) {
     document.querySelector(
