@@ -20,7 +20,9 @@ defmodule BingoWeb.Router do
   end
 
   # Other scopes may use custom stacks.
-  # scope "/api", BingoWeb do
-  #   pipe_through :api
-  # end
+  scope "/api", BingoWeb do
+    pipe_through :api
+
+    resources "/games", GameController, except: [:edit, :new]
+  end
 end
