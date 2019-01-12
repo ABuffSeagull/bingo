@@ -10,7 +10,7 @@
   <body>
     <header>
       <section class="container">
-	      <h1>Bingo</h1>
+	      <h1>Bingo Runner</h1>
       </section>
     </header>
     <main role="main" class="container">
