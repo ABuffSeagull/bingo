@@ -11,8 +11,6 @@ defmodule BingoWeb.GameView do
   end
 
   def render("game.json", %{game: game}) do
-    %{id: game.id,
-      name: game.name,
-      objectives: game.objectives}
+    %{id: game.id, name: game.name, objectives: game.objectives}
   end
 end

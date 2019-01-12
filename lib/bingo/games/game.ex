@@ -2,7 +2,6 @@ defmodule Bingo.Games.Game do
   use Ecto.Schema
   import Ecto.Changeset
 
-
   schema "games" do
     field :name, :string
     field :objectives, :map

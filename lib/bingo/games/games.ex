@@ -103,6 +103,6 @@ defmodule Bingo.Games do
   end
 
   def get_game_by_name!(name) do
-	  Repo.get_by!(Game, name: name)
+    Repo.get_by!(Game, name: name)
   end
 end
